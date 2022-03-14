@@ -1,11 +1,12 @@
 import React from 'react';
-import {Routes} from "./routes/Routes";
+import { Category } from './components/Category';
+import {AppRoutes} from "./routes/AppRoutes";
 
 function App() {
     return (
         <div className="App">
-            Hello
-            <Routes/>
+            <Category />
+            <AppRoutes/>
         </div>
     );
 }
